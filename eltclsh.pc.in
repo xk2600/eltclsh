@@ -1,0 +1,15 @@
+#
+# eltclsh pkg-config file
+#
+Name: eltclsh
+Description: Interactive Tcl-shell with line editing facility
+Version: @PACKAGE_VERSION@
+
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+datarootdir=@datarootdir@
+datadir=@datadir@/eltcl
+
+ELTCLSH_TOOL=${exec_prefix}/@ELTCLSH@
